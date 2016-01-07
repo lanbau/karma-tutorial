@@ -1,4 +1,14 @@
 var assert = require('assert')
+
+var num = require('../js/one')
+
+describe('Num', () => {
+  it('should return 1', () => {
+    assert.equal(num(), 1)
+  })
+})
+
+
 describe('Array', function() {
   describe('#indexOf()', () => {
     it('should return -1 when the value is not present', function() {
